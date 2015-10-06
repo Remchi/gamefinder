@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <div className="container-fluid">
         <Navbar />
-        <h1>Hello world</h1>
+        {this.props.children}
       </div>
     );
   }
